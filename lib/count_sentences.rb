@@ -32,5 +32,7 @@ class String
       count += 1
     end
     return count
+    binding.pry
+    0
   end
 end
