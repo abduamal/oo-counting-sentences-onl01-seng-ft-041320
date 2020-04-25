@@ -27,10 +27,5 @@ class String
   end
 
   def count_sentences
-    count = 0
-    if count_sentences.end_with?("." || "?" || "!")
-      count += 1
-    end
-    return count
   end
 end
